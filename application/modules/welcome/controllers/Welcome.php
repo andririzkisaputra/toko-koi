@@ -41,4 +41,10 @@ class Welcome extends MY_Controller {
         //
 		$this->load->view('welcome_message');
 	}
+	
+	public function album()
+	{
+        //
+		$this->load->view('album/index.html');
+	}
 }

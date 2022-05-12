@@ -14,7 +14,7 @@
  *
  */
 
-class Frontend extends FrontendController
+class Frontend extends MY_Controller
 {
     /**
      * [__construct description]
@@ -37,6 +37,12 @@ class Frontend extends FrontendController
     public function index()
     {
         // Example
-        //$this->load->view('frontend/dashboard');
+		$this->load->view('welcome_message');
+    }
+
+    public function album()
+    {
+        // Example
+		$this->load->view('welcome_message');
     }
 }
