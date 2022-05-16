@@ -27,22 +27,23 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="section-title" data-aos="zoom-out">
+            <div class="section-title" >
                 <h2>Produk</h2>
                 <p>Tersedia</p>
             </div>
 
-            <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+            <ul id="portfolio-flters" class="d-flex justify-content-end">
                 <li data-filter="*" class="filter-active">Semua</li>
                 <li data-filter=".filter-app">Terlaris</li>
                 <li data-filter=".filter-card">Termurah</li>
                 <li data-filter=".filter-web">Termahal</li>
             </ul>
 
-            <div class="row portfolio-container" data-aos="fade-up">
-                <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-                    <div class="portfolio-info">
+
+            <div class="row product">
+                <!-- <div class="col-lg-4 col-md-6 product-item product-app" style="background-image: url('assets/img/product/koi-1.jpg');">
+                    <div class="portfolio-img"><img src="assets/img/product/portfolio-8.jpg" class="img-fluid" alt=""></div>
+                    <div class="product-info">
                         <h4>Kohaku</h4>
                         <p>Merupakan jenis ikan tertua, hasil...</p>
                         <a href="create-cart.php" class="preview-link"><i class="bx bx-cart"></i></a>
