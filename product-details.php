@@ -31,21 +31,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="portfolio-info">
-                        <h3>Detail</h3>
-                        <ul>
-                            <li><strong>Nama</strong>: ASU Company</li>
-                            <li><strong>Tanggal Produk</strong>: 01 March, 2020</li>
-                        </ul>
-                    </div>
-                    <div class="portfolio-description">
-                        <h2>Keterangan</h2>
-                        <p>
-                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                        </p>
-                    </div>
-                </div>
+                <div class="col-lg-4 details"></div>
 
             </div>
 
