@@ -44,7 +44,6 @@
                 <li data-filter=".filter-web">Termahal</li>
             </ul>
 
-
             <div class="row product">
                 <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
@@ -65,5 +64,4 @@
     </section><!-- End Portfolio Section -->
 </main>
 
-<script src="assets/js/home.js"></script>
 <?php include('template/frontend/footer.php'); ?>

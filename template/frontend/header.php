@@ -20,7 +20,8 @@
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-        
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Vendor CSS Files -->
         <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
         <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -33,12 +34,11 @@
         
         <!-- Template Main CSS File -->
         <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/style-login.css" rel="stylesheet">
 
         <!-- Template Main JS File -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
@@ -63,7 +63,7 @@
                         <?php endif ?>
                         <li><a class="nav-link scrollto <?= ($uri[1] == 'tentang.php') ? 'active' : ''?>" href="tentang.php">Tentang</a></li>
                         <?php if(!isset($_SESSION['user'])) : ?>
-                            <li><a class="nav-link scrollto" for="modal-open3" href="#">Login</a></li>
+                            <li><a class="nav-link scrollto open-modal" href="javascript:void(0)">Login</a></li>
                             <li><a class="nav-link scrollto" href="sign-up.php">Signup</a></li>
                         <?php endif ?>
                         <?php if(isset($_SESSION['user'])) : ?>
