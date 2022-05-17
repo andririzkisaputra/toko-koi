@@ -1,5 +1,10 @@
 <?php include('template/frontend/header.php'); ?>
-
+<script>
+    let user = false;
+    <?php if(isset($_SESSION['user'])) : ?>
+        user = <?php $_SESSION['user']; ?>
+    <?php endif; ?>
+</script>
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
     <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
@@ -41,16 +46,6 @@
 
 
             <div class="row product">
-                <!-- <div class="col-lg-4 col-md-6 product-item product-app" style="background-image: url('assets/img/product/koi-1.jpg');">
-                    <div class="portfolio-img"><img src="assets/img/product/portfolio-8.jpg" class="img-fluid" alt=""></div>
-                    <div class="product-info">
-                        <h4>Kohaku</h4>
-                        <p>Merupakan jenis ikan tertua, hasil...</p>
-                        <a href="create-cart.php" class="preview-link"><i class="bx bx-cart"></i></a>
-                        <a href="portfolio-details.php" class="details-link"><i class="bx bx-spreadsheet"></i></a>
-                    </div>
-                </div> -->
-
                 <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
                     <div class="portfolio-info">
