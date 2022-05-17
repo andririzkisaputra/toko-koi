@@ -3,7 +3,6 @@ $(document).ready(function() {
     let data = [];
     get();
     function get() {
-        console.log(user);
         $.ajax({
             url: 'config/frontend/list-product.php',
             method: 'POST', 
@@ -21,7 +20,7 @@ $(document).ready(function() {
                         info = '<a href="product-details.php?prodact='+val.code_product+'" class="preview-link"><i class="bx bx-spreadsheet"></i></a>';
                     }
                     data.push(
-                    '<div class="product-item product-app" style="background-image: url(assets/img/product/'+val.name+');">'
+                    '<div class="product-item product-app" style="background-image: url(assets/img/product/'+val.name+'); padding: 0px;">'
                         +'<div class="product-info">'
                             +'<h4>'+val.name_product+'</h4>'
                             +'<p>'+val.description.substring(0, 40)+'...</p>'
