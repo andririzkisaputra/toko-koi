@@ -42,11 +42,17 @@ $(document).ready(function() {
     }
 
     function get_product(product) {
-        console.log(product);
+        let cart = '';
         data = [];
         product.map(function(val, index){
+            if (user) {
+                cart = '<div>'
+                    +'<a href="product-details.php?prodact='+val.code_product+'" class="cart-detail"><i class="bx bx-cart"></i></a>'
+                +'</div>'
+            }
             data.push(          
                 '<div class="portfolio-info">'
+                    +cart
                     +'<h3>Detail</h3>'
                     +'<ul>'
                         +'<li><strong>Nama</strong>: '+val.name+'</li>'

@@ -1,4 +1,10 @@
 <?php include('template/frontend/header.php'); ?>
+<script>
+    let user = false;
+    <?php if(isset($_SESSION['user'])) : ?>
+        user = <?php $_SESSION['user']; ?>
+    <?php endif; ?>
+</script>
 
 <main id="main">
 

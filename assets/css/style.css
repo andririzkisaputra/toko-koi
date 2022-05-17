@@ -1459,3 +1459,11 @@ section {
   font-weight: 400;
   transition: all 0.3s ease-in-out;
 }
+.cart-detail {
+  /* position: absolute; */
+  right: 40px;
+  font-size: 50px;
+  top: calc(50% - 18px);
+  transition: 0.3s;
+  margin: 0px 15px 0px 0px;
+}
