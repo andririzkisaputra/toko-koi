@@ -1,6 +1,6 @@
 <?php
 include('../server/db.php');
-include('../frontend/product.php');
+include('../frontend/method/product.php');
 $product = new Product;
 $data['data'] = $product->get_detail_product([
     'code_product' => $_POST['product']

@@ -1,6 +1,6 @@
 <?php
 include('../server/db.php');
-include('../frontend/product.php');
+include('../frontend/method/product.php');
 $product = new Product;
 $data['data'] = $product->get_limit($_POST['limit']);
 $data['count'] = count($product->get_all());
