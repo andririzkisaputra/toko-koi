@@ -3,7 +3,7 @@
 <script>
     let user = false;
     <?php if(isset($_SESSION['user'])) : ?>
-        user = <?php $_SESSION['user']; ?>
+        user = <?= $_SESSION['user']; ?>
     <?php endif; ?>
 </script>
 <!-- ======= Hero Section ======= -->
