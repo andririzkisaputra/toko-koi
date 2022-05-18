@@ -11,7 +11,7 @@
                                     <h3 class="mb-4">Sign Up</h3>
                                 </div>
                             </div>
-                            <form method="POST" action="config/frontend/sign-up.php" class="signin-form">
+                            <form method="POST" action="config/frontend/proses-sign-up.php" class="signin-form">
                                 <div class="form-group mt-3">
                                     <input type="text" class="form-control" required>
                                     <label class="form-control-placeholder" for="username">Username</label>
