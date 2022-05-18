@@ -63,8 +63,8 @@
                         <?php endif ?>
                         <li><a class="nav-link scrollto <?= ($uri[1] == 'tentang.php') ? 'active' : ''?>" href="tentang.php">Tentang</a></li>
                         <?php if(!isset($_SESSION['user'])) : ?>
-                            <li><a class="nav-link scrollto open-modal" href="javascript:void(0)">Login</a></li>
-                            <li><a class="nav-link scrollto" href="sign-up.php">Signup</a></li>
+                            <li><a class="nav-link scrollto open-modal-login" href="javascript:void(0)">Login</a></li>
+                            <li><a class="nav-link scrollto open-modal-signup" href="javascript:void(0)">Signup</a></li>
                         <?php endif ?>
                         <?php if(isset($_SESSION['user'])) : ?>
                             <li>

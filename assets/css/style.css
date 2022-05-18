@@ -1490,7 +1490,7 @@ section {
   margin: 0px 15px 0px 0px;
 }
 
-.bg-modal {
+.bg-modal-login {
   position: fixed;
   top: -250%;
   left: 0;
@@ -1505,9 +1505,59 @@ section {
   align-items: center;
 }
 
-.bg-modal.show {
+.bg-modal-login {
+  position: fixed;
+  top: -250%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 98;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-modal-login.show {
 top:0;
  transition: .5s;
+}
+
+.bg-modal-signup {
+  position: fixed;
+  top: -250%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 98;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-modal-signup {
+  position: fixed;
+  top: -250%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 98;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-modal-signup.show {
+  top:0;
+  transition: .5s;
 }
 
 .modal-custom {

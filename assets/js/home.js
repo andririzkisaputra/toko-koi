@@ -1,16 +1,4 @@
 $(document).ready(function() {
-    const bgModal = document.querySelector('.bg-modal');
-    const openModal = document.querySelector('.open-modal');
-    const closeModal = document.querySelector('.close-modal');
-
-    openModal.addEventListener('click', function() {
-        bgModal.classList.add('show');
-    });
-
-    closeModal.addEventListener('click', function() {
-        bgModal.classList.remove('show');
-    });
-
     let limit = 6;
     let data = [];
     get();

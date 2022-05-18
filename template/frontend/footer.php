@@ -1,5 +1,5 @@
-        
         <?php include('modal-login.php'); ?>
+        <?php include('modal-signup.php'); ?>
         <!-- ======= Footer ======= -->
         <footer id="footer">
             <div class="container">
@@ -28,6 +28,5 @@
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
         <script src="assets/js/popper.js"></script>
-        <script src="assets/js/home.js"></script>
     </body>
 </html>

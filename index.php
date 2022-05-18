@@ -64,4 +64,5 @@
     </section><!-- End Portfolio Section -->
 </main>
 
+<script src="assets/js/home.js"></script>
 <?php include('template/frontend/footer.php'); ?>
