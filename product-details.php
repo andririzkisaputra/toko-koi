@@ -1,4 +1,5 @@
 <?php include('template/frontend/header.php'); ?>
+<?php include('template/frontend/navbar.php'); ?>
 <script>
     let user = false;
     <?php if(isset($_SESSION['user'])) : ?>
