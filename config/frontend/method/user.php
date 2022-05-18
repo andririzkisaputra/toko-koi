@@ -10,16 +10,39 @@ class User
         $this->db = new Database;
     }
 
-    public function get_all($where = [])
+    public function get_by($where = [])
     {
         $data  = [];
         $query = 'SELECT * FROM user';
         $query .= ($where) ? ' WHERE username = "'.$where['username'].'"' : '';
         $query = mysqli_query($this->db->connect(), $query);
 		while($row = mysqli_fetch_array($query)){
-			$data[] = $row;
+			$data = $row;
 		}
         $this->result = $data;
 		return $this->result;
+    }
+
+    public function insert($data)
+    {
+        $sql = 'INSERT INTO user (
+            username,
+            name,
+            number,
+            email,
+            password,
+            address,
+            created_at
+        )
+        VALUES (
+            "'.$data['username'].'",
+            "'.$data['name'].'",
+            "'.$data['number'].'",
+            "'.$data['email'].'",
+            "'.$data['password'].'",
+            "'.$data['address'].'",
+            "'.date('Y-m-d H:i:s').'"
+        )';
+        return mysqli_query($this->db->connect(), $sql);
     }
 }

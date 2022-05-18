@@ -24,12 +24,12 @@
                 <?php endif ?>
                 <?php if(isset($_SESSION['user'])) : ?>
                     <li>
-                        <a class="nav-link scrollto" href="keranjang.php">Keranjang
-                            <span class="cart-count"><?= count($cart->get_all()) ?></span>
+                        <a class="nav-link scrollto <?= ($uri[1] == 'keranjang.php') ? 'active' : ''?>" href="keranjang.php">Keranjang
+                            <span class="cart-count"><?= count($cart->get_all()); ?></span>
                         </a>
                     </li>
-                    <li><a class="nav-link scrollto " href="akun.php">Akun</a></li>
-                    <li><a class="nav-link scrollto" href="logout.php">Logout</a></li>
+                    <li><a class="nav-link scrollto <?= ($uri[1] == 'akun.php') ? 'active' : ''?>" href="akun.php">Akun</a></li>
+                    <li><a class="nav-link scrollto" href="config/frontend/logout.php">Logout (<?= $_SESSION['user']['username']; ?>)</a></li>
                 <?php endif ?>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

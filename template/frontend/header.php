@@ -1,7 +1,7 @@
 <?php
     include('config/server/db.php');
-    include('config/frontend/cart.php');
-    include('config/frontend/category.php');
+    include('config/frontend/method/cart.php');
+    include('config/frontend/method/category.php');
     $cart = new Cart();
     $category = new Category();
     $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

@@ -11,13 +11,13 @@
                                     <h3 class="mb-4">Login</h3>
                                 </div>
                             </div>
-                            <form action="#" class="signin-form">
+                            <form method="POST" action="config/frontend/proses-login.php" class="signin-form">
                                 <div class="form-group mt-3">
-                                    <input type="text" class="form-control" required>
+                                    <input type="text" class="form-control" name="username" required>
                                     <label class="form-control-placeholder" for="username">Username</label>
                                 </div>
                                 <div class="form-group">
-                                    <input id="password-field" type="password" class="form-control" required>
+                                    <input id="password-field" type="password" class="form-control" name="password" required>
                                     <label class="form-control-placeholder" for="password">Password</label>
                                     <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                                 </div>
