@@ -39,7 +39,6 @@
             </div>
 
             <ul id="portfolio-flters" class="d-flex justify-content-end">
-                <li data-filter="*" class="filter-active">Semua</li>
                 <li data-filter=".filter-app">Terlaris</li>
                 <li data-filter=".filter-card">Termurah</li>
                 <li data-filter=".filter-web">Termahal</li>
