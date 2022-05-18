@@ -26,17 +26,41 @@ class Product
 		return $this->result;
     }
 
-    public function get_limit($limit)
+    public function get_by($where = [])
+    {
+        $data  = [];
+        $query = 'SELECT *, a.name AS name_product FROM product a, file_upload b 
+                WHERE a.session_upload_id = b.session_upload_id 
+                AND a.is_active = "1"
+                AND b.type = "img"';
+        $query .= ($where) ? ' AND a.code_product = "'.$where['code_product'].'"' : '';
+        $query = mysqli_query($this->db->connect(), $query);
+		while($row = mysqli_fetch_object($query)){
+			$data = $row;
+		}
+        $this->result = $data;
+		return $this->result;
+    }
+
+    public function get_limit($where = [])
     {
         $data  = [];
         $query = 'SELECT *, a.name AS name_product FROM product a, file_upload b
                 WHERE a.session_upload_id = b.session_upload_id 
                 AND a.is_active = "1"
                 AND b.type = "img"';
-        $query .= ($limit) ? ' LIMIT '.$limit.'' : '';
+        $query .= ($where['limit']) ? ' LIMIT '.$where['limit'].'' : '';
         $query = mysqli_query($this->db->connect(), $query);
-        while($row = mysqli_fetch_array($query)){
-			$data[] = $row;
+        while($row = mysqli_fetch_object($query)){
+			$data['product'][] = $row;
+            $query_cart = mysqli_query($this->db->connect(), 
+                'SELECT COUNT(*) as length FROM cart
+                WHERE code_product = "'.$row->code_product.'"
+                AND username = "'.$_SESSION['user']['username'].'"'
+            );
+            while($row_cart = mysqli_fetch_object($query_cart)){
+                $data['cart'][] = $row_cart->length;
+            }
 		}
         $this->result = $data;
 		return $this->result;
@@ -49,11 +73,11 @@ class Product
                 WHERE is_active = "1"
                 AND code_product = "'.$where['code_product'].'"';
         $query = mysqli_query($this->db->connect(), $query);
-		while($row = mysqli_fetch_array($query)){
+		while($row = mysqli_fetch_object($query)){
 			$data['product'][] = $row;
-            $query = mysqli_query($this->db->connect(), 'SELECT * FROM file_upload WHERE session_upload_id = '.$row['session_upload_id'].'');
-            while($row = mysqli_fetch_array($query)){
-                $data['file_upload'][] = $row;
+            $query_file_upload = mysqli_query($this->db->connect(), 'SELECT * FROM file_upload WHERE session_upload_id = "'.$row->session_upload_id.'"');
+            while($row_file_upload = mysqli_fetch_array($query_file_upload)){
+                $data['file_upload'][] = $row_file_upload;
             }
 		}
         $this->result = $data;

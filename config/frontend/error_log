@@ -1,0 +1,342 @@
+[18-May-2022 07:51:34 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 07:52:54 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:03:07 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:04:02 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:04:02 UTC] PHP Notice:  Undefined index: number in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 39
+[18-May-2022 08:06:50 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:07:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:10:01 UTC] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:10:16 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:12:13 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:12:13 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:13 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:31 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:12:31 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:31 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:54 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:12:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:54 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:12:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:12:54 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:14:01 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:14:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:15:38 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:15:54 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:24 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:25 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:16:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:17:02 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:17:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:07 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:12 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:18:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:06 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:10 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:23 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:31 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 48
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 51
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 54
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:34 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 08:19:35 UTC] PHP Fatal error:  Uncaught Error: Class 'User' not found in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 4
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 46
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 49
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 52
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Notice:  Undefined variable: conn in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:19:35 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/proses-sign-up.php on line 11
+[18-May-2022 15:21:33 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:21:42 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:22:19 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:22:24 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:22:53 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:23:46 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:23:58 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 15:23:58 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 18
+[18-May-2022 15:24:03 Asia/Jakarta] PHP Warning:  Illegal string offset 'username' in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/method/user.php on line 17
+[18-May-2022 08:59:13 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/logout.php on line 2
+[18-May-2022 09:01:30 UTC] PHP Notice:  Undefined variable: _SESSION in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/logout.php on line 2
+[18-May-2022 09:01:42 UTC] PHP Notice:  Undefined variable: _SESSION in /home/kemasayu/toko-koi.kemasayur.id/config/frontend/logout.php on line 2

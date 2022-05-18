@@ -1,6 +1,6 @@
 (function($) {
     "use strict";
-  
+
     new Swiper('.portfolio-details-slider', {
         speed: 400,
         loop: true,
@@ -14,7 +14,7 @@
             clickable: true
         }
     });
-  
+
     $(".toggle-password").click(function() {
         $(this).toggleClass("fa-eye fa-eye-slash");
         var input = $($(this).attr("toggle"));
@@ -24,7 +24,7 @@
             input.attr("type", "password");
         }
     });
-  
+
     /**
      * Easy selector helper function
      */
@@ -36,7 +36,7 @@
             return document.querySelector(el)
         }
     }
-  
+
     /**
      * Easy event listener function
      */
@@ -50,14 +50,14 @@
             }
         }
     }
-  
+
     /**
      * Easy on scroll event listener 
      */
     const onscroll = (el, listener) => {
         el.addEventListener('scroll', listener)
     }
-  
+
     /**
      * Navbar links active state on scroll
      */
@@ -77,21 +77,21 @@
     }
     window.addEventListener('load', navbarlinksActive)
     onscroll(document, navbarlinksActive)
-  
+
     /**
      * Scrolls to an element with header offset
      */
     const scrollto = (el) => {
         let header = select('#header')
         let offset = header.offsetHeight
-  
+
         let elementPos = select(el).offsetTop
         window.scrollTo({
             top: elementPos - offset,
             behavior: 'smooth'
         })
     }
-  
+
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
@@ -107,7 +107,7 @@
         window.addEventListener('load', headerScrolled)
         onscroll(document, headerScrolled)
     }
-  
+
     /**
      * Back to top button
      */
@@ -123,7 +123,7 @@
         window.addEventListener('load', toggleBacktotop)
         onscroll(document, toggleBacktotop)
     }
-  
+
     /**
      * Mobile nav toggle
      */
@@ -132,7 +132,7 @@
         this.classList.toggle('bi-list')
         this.classList.toggle('bi-x')
     })
-  
+
     /**
      * Mobile nav dropdowns activate
      */
@@ -142,7 +142,7 @@
             this.nextElementSibling.classList.toggle('dropdown-active')
         }
     }, true)
-  
+
     /**
      * Scrool with ofset on links with a class name .scrollto
      */
@@ -159,7 +159,7 @@
             scrollto(this.hash)
         }
     }, true)
-  
+
     /**
      * Scroll with ofset on page load with hash links in the url
      */
@@ -170,7 +170,7 @@
             }
         }
     });
-  
+
     /**
      * Animation on scroll
      */
@@ -182,6 +182,5 @@
             mirror: false
         })
     });
-  
-  })(jQuery);
-  
+
+})(jQuery);

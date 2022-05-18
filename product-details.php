@@ -3,7 +3,7 @@
 <script>
     let user = false;
     <?php if(isset($_SESSION['user'])) : ?>
-        user = <?php $_SESSION['user']; ?>
+        user = <?= json_encode($_SESSION['user']['username']); ?>
     <?php endif; ?>
 </script>
 

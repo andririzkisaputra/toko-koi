@@ -8,12 +8,13 @@ class Database
     protected $password;
 
     public function __construct() {
+        error_reporting(0);
         session_start();
         date_default_timezone_set('Asia/Jakarta');
         $this->host     = 'localhost';
-        $this->database = 'kemasayu_toko-koi';
-        $this->username = 'kemasayu';
-        $this->password = '1ql4BuBU8N9(m:';
+        $this->database = 'toko-koi';
+        $this->username = 'root';
+        $this->password = '';
     }
 
     public function connect()

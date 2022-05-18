@@ -12,12 +12,12 @@ $(document).ready(function() {
             },
             success: function(res){
                 let info = '';
-                res.data.map(function(val, index){
+                res.data.product.map(function(val, index){
                     if (user) {
-                        info = '<a href="create-cart.php?prodact='+val.code_product+'" class="preview-link"><i class="bx bx-cart"></i></a>'
-                            +'<a href="product-details.php?prodact='+val.code_product+'" class="details-link"><i class="bx bx-spreadsheet"></i></a>';
+                        info = '<a href="config/frontend/create-cart.php?product='+val.code_product+'" class="preview-link"><i class="bx bx-cart"></i></a>'
+                            +'<a href="product-details.php?product='+val.code_product+'" class="details-link"><i class="bx bx-spreadsheet"></i></a>';
                     } else {
-                        info = '<a href="product-details.php?prodact='+val.code_product+'" class="preview-link"><i class="bx bx-spreadsheet"></i></a>';
+                        info = '<a href="product-details.php?product='+val.code_product+'" class="preview-link"><i class="bx bx-spreadsheet"></i></a>';
                     }
                     data.push(
                     '<div class="product-item product-app" style="background-image: url(assets/img/product/'+val.name+'); padding: 0px;">'

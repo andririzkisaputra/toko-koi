@@ -14,6 +14,7 @@ $(document).ready(function() {
                 product: product,
             },
             success: function(res){
+                console.log(res);
                 get_file_upload(res.data.file_upload);
                 get_product(res.data.product);
             }
