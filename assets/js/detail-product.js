@@ -57,6 +57,8 @@ $(document).ready(function() {
                     +'<h3>Detail</h3>'
                     +'<ul>'
                         +'<li><strong>Nama</strong>: '+val.name+'</li>'
+                        +'<li><strong>Harga</strong>: '+formatRupiah(val.price, 'Rp ')+'</li>'
+                        +'<li><strong>Stok</strong>: '+val.stock+'</li>'
                         +'<li><strong>Tanggal Produk</strong>: '+moment(val.created_at).format('DD MMMM YYYY')+'</li>'
                     +'</ul>'
                 +'</div>'
@@ -70,4 +72,21 @@ $(document).ready(function() {
         data = data.toString();
         $('.details').html(data);
     }
+
+    function formatRupiah(angka, prefix){
+        var number_string = angka.replace(/[^,\d]/g, '').toString(),
+        split   		= number_string.split(','),
+        sisa     		= split[0].length % 3,
+        rupiah     		= split[0].substr(0, sisa),
+        ribuan     		= split[0].substr(sisa).match(/\d{3}/gi);
+
+        if(ribuan){
+            separator = sisa ? '.' : '';
+            rupiah += separator + ribuan.join('.');
+        }
+
+        rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+        return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+    }
+
 });
