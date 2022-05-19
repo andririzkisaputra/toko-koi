@@ -1,6 +1,6 @@
 /*
-SQLyog Professional v12.5.1 (64 bit)
-MySQL - 10.4.24-MariaDB : Database - toko-koi
+SQLyog Community v13.1.8 (64 bit)
+MySQL - 10.4.22-MariaDB : Database - toko-koi
 *********************************************************************
 */
 
@@ -33,15 +33,13 @@ CREATE TABLE `cart` (
   KEY `code_product` (`code_product`) USING BTREE,
   CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`code_product`) REFERENCES `product` (`code_product`),
   CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`username`) REFERENCES `user` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `cart` */
 
-LOCK TABLES `cart` WRITE;
-
-insert  into `cart`(`id`,`code_product`,`username`,`qty`,`price`,`created_at`,`updated_at`) values (2,'TKOI126','andri007',3,21000,'2022-05-19 01:11:15',NULL);
-
-UNLOCK TABLES;
+insert  into `cart`(`id`,`code_product`,`username`,`qty`,`price`,`created_at`,`updated_at`) values 
+(19,'TKOI123','andri007',4,28000,'2022-05-19 14:38:06',NULL),
+(20,'TKOI127','andri007',3,3000,'2022-05-19 14:38:11',NULL);
 
 /*Table structure for table `category` */
 
@@ -58,10 +56,6 @@ CREATE TABLE `category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `category` */
-
-LOCK TABLES `category` WRITE;
-
-UNLOCK TABLES;
 
 /*Table structure for table `file_upload` */
 
@@ -80,12 +74,9 @@ CREATE TABLE `file_upload` (
 
 /*Data for the table `file_upload` */
 
-LOCK TABLES `file_upload` WRITE;
-
-insert  into `file_upload`(`id`,`session_upload_id`,`name`,`type`,`created_at`,`updated_at`) values (1,1234567890,'koi-1.jpg','img','2022-05-14 23:31:13',NULL);
-insert  into `file_upload`(`id`,`session_upload_id`,`name`,`type`,`created_at`,`updated_at`) values (3,1234567890,'koi-1.mp4','video','2022-05-14 23:31:13',NULL);
-
-UNLOCK TABLES;
+insert  into `file_upload`(`id`,`session_upload_id`,`name`,`type`,`created_at`,`updated_at`) values 
+(1,1234567890,'koi-1.jpg','img','2022-05-14 23:31:13',NULL),
+(3,1234567890,'koi-1.mp4','video','2022-05-14 23:31:13',NULL);
 
 /*Table structure for table `invoice` */
 
@@ -114,9 +105,22 @@ CREATE TABLE `invoice` (
 
 /*Data for the table `invoice` */
 
-LOCK TABLES `invoice` WRITE;
+/*Table structure for table `payment` */
 
-UNLOCK TABLES;
+DROP TABLE IF EXISTS `payment`;
+
+CREATE TABLE `payment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `bank` varchar(45) DEFAULT NULL,
+  `number` bigint(20) DEFAULT NULL,
+  `is_active` enum('0','1') NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/*Data for the table `payment` */
 
 /*Table structure for table `product` */
 
@@ -127,6 +131,9 @@ CREATE TABLE `product` (
   `session_upload_id` int(11) DEFAULT NULL,
   `code_product` varchar(45) DEFAULT NULL,
   `name` varchar(45) DEFAULT NULL,
+  `quality` varchar(45) DEFAULT NULL,
+  `size` int(45) DEFAULT NULL,
+  `sex` enum('Suspect Male','Suspect Female') NOT NULL DEFAULT 'Suspect Male',
   `stock` int(11) DEFAULT NULL,
   `description` text DEFAULT NULL,
   `price` bigint(20) DEFAULT NULL,
@@ -141,18 +148,15 @@ CREATE TABLE `product` (
 
 /*Data for the table `product` */
 
-LOCK TABLES `product` WRITE;
-
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (1,1234567890,'TKOI124','Fish',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (2,1234567890,'TKOI123','Tancho',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (13,1234567890,'TKOI125','Fish',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (14,1234567890,'TKOI126','Tancho',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (15,1234567890,'TKOI127','Fish',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (16,1234567890,'TKOI128','Tancho',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (17,1234567890,'TKOI129','Fish',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL);
-insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values (18,1234567890,'TKOI122','Tancho',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL);
-
-UNLOCK TABLES;
+insert  into `product`(`id`,`session_upload_id`,`code_product`,`name`,`quality`,`size`,`sex`,`stock`,`description`,`price`,`is_active`,`created_at`,`updated_at`) values 
+(1,1234567890,'TKOI124','Fish','High Quality',40,'Suspect Male',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL),
+(2,1234567890,'TKOI123','Tancho','High Quality',40,'Suspect Male',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL),
+(13,1234567890,'TKOI125','Fish','High Quality',40,'Suspect Male',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL),
+(14,1234567890,'TKOI126','Tancho','High Quality',40,'Suspect Male',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL),
+(15,1234567890,'TKOI127','Fish','High Quality',40,'Suspect Male',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL),
+(16,1234567890,'TKOI128','Tancho','High Quality',40,'Suspect Male',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL),
+(17,1234567890,'TKOI129','Fish','High Quality',40,'Suspect Male',100,'Ikan koi chagoi merupakan jenis ikan koi dengan harga yang paling murah. Ciri khas ikan chagoi adalah perpaduan warna abu-abu dengan lapisan warna kuning keemasan yang tipis tanpa corak unik.',1000,'1','2022-05-14 23:36:00',NULL),
+(18,1234567890,'TKOI122','Tancho','High Quality',40,'Suspect Male',100,'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada bagian kepalanya.',7000,'1','2022-05-14 23:36:00',NULL);
 
 /*Table structure for table `transaction` */
 
@@ -178,10 +182,6 @@ CREATE TABLE `transaction` (
 
 /*Data for the table `transaction` */
 
-LOCK TABLES `transaction` WRITE;
-
-UNLOCK TABLES;
-
 /*Table structure for table `user` */
 
 DROP TABLE IF EXISTS `user`;
@@ -202,11 +202,8 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-LOCK TABLES `user` WRITE;
-
-insert  into `user`(`id`,`username`,`name`,`number`,`email`,`password`,`nama`,`address`,`created_at`) values (2,'andri007','Andri Rizki Saputra','082322525083','andri.rizki007@gmail.com','andri007',NULL,'Yogyakarta','2022-05-18 22:27:40');
-
-UNLOCK TABLES;
+insert  into `user`(`id`,`username`,`name`,`number`,`email`,`password`,`nama`,`address`,`created_at`) values 
+(2,'andri007','Andri Rizki Saputra','082322525083','andri.rizki007@gmail.com','andri007',NULL,'Yogyakarta','2022-05-18 22:27:40');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
