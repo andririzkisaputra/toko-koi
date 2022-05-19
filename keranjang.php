@@ -46,27 +46,8 @@
                             <b class="col-lg-6"><?= $_SESSION['user']['address'] ?></b>
                         </div>
                         <hr>
-                        <p>Pembayaran</p>
-                        <hr>
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <b class="col-lg-6">Bank</b>
-                            <b class="col-lg-6">BCA</b>
-                        </div>
-                        <hr>
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <b class="col-lg-6">Nomor Rekening</b>
-                            <b class="col-lg-6">1234567890</b>
-                        </div>
-                        <hr>
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <b class="col-lg-6">Nama</b>
-                            <b class="col-lg-6">Lawliet</b>
-                        </div>
-                        <hr>
-
-                        <div id="more" class="d-flex flex-column align-items-center">
-                            <button class="btn-get-started">Pilih Pembayaran</button>
-                        </div>
+                        <div class="payment-details"></div>
+                        <div class="bank-list"></div>
                     </div>
                 </div>
                 <div class="col-lg-12 cart">
