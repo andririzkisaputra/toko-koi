@@ -48,7 +48,7 @@ $(document).ready(function() {
         product.map(function(val, index){
             if (user) {
                 cart = '<div>'
-                    +'<a href="product-details.php?prodact='+val.code_product+'" class="cart-detail"><i class="bx bx-cart"></i></a>'
+                    +'<a href="config/frontend/create-cart.php?product='+val.code_product+'" class="cart-detail"><i class="bx bx-cart"></i></a>'
                 +'</div>'
             }
             data.push(          
