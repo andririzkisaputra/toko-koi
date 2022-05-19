@@ -11,8 +11,7 @@ if (!$select) {
     ]);
     $insert = $cart->insert($select_product);
     if ($insert) {
-        print_r('berhasil di input');
-        exit;
+        echo "<script>history.go(-1);</script>";
     }
 } else {
     $select_product = $product->get_by([
@@ -22,7 +21,6 @@ if (!$select) {
     $select->price = $select_product->price*$select->qty;
     $update = $cart->update($select);
     if ($update) {
-        print_r('berhasil di update');
-        exit;
+        echo "<script>history.go(-1);</script>";
     }
 }

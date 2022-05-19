@@ -52,15 +52,17 @@ class Product
         $query .= ($where['limit']) ? ' LIMIT '.$where['limit'].'' : '';
         $query = mysqli_query($this->db->connect(), $query);
         while($row = mysqli_fetch_object($query)){
-			$data['product'][] = $row;
+            $cart = 0;
             $query_cart = mysqli_query($this->db->connect(), 
-                'SELECT COUNT(*) as length FROM cart
+                'SELECT qty FROM cart
                 WHERE code_product = "'.$row->code_product.'"
                 AND username = "'.$_SESSION['user']['username'].'"'
             );
             while($row_cart = mysqli_fetch_object($query_cart)){
-                $data['cart'][] = $row_cart->length;
+                $cart = $row_cart;
             }
+            $row->qty = ($cart) ? $cart->qty : 0;
+			$data[] = $row;
 		}
         $this->result = $data;
 		return $this->result;
