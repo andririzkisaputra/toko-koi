@@ -87,9 +87,7 @@
                                 <td>Hapus</td>
                             </tr>
                         </thead>
-                        <tbody>
-                            
-                        </tbody>
+                        <tbody></tbody>
                     </table>
                     <div class="row col-lg-12 d-flex justify-content-between" style="padding: 15px;">
                         <div class="col-lg-7 cart">
@@ -100,14 +98,8 @@
                         </div>
                         <div class="col-lg-4 cart">
                             <div class="section-title" style="padding-bottom: 15px;">
-                                <div class="row d-flex justify-content-between align-items-center">
-                                    <b class="col-lg-6">SubTotal</b>
-                                    <b class="col-lg-6">Rp 21.000</b>
-                                </div>
-                                <div class="row d-flex justify-content-between align-items-center">
-                                    <p class="col-lg-6">Total</p>
-                                    <b class="col-lg-6">Rp 21.000</b>
-                                </div>
+                                <div class="row d-flex justify-content-between align-items-center subtotal"></div>
+                                <div class="row d-flex justify-content-between align-items-center total"></div>
                                 <hr>
                                 <div id="more" class="d-flex flex-column align-items-center">
                                     <button class="btn-get-started">Bayar</button>
