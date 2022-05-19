@@ -13,10 +13,13 @@ class Cart
     public function get_all($where = [])
     {
         $data  = [];
-        $query = 'SELECT * FROM cart';
-        $query .= ' WHERE username = "'.$_SESSION['user']['username'].'"';
+        $query = 'SELECT * FROM cart c, file_upload f, user u, product p'; 
+        $query .= ' WHERE p.session_upload_id = f.session_upload_id';
+        $query .= ' AND c.code_product = p.code_product';
+        $query .= ' AND c.username = u.username';
+        $query .= ' AND c.username = "'.$_SESSION['user']['username'].'"';
         if ($where) {
-            $query .= ' AND code_product = "'.$where['product'].'"';
+            $query .= ' AND c.code_product = "'.$where['product'].'"';
         }
         $query = mysqli_query($this->db->connect(), $query);
 		while($row = mysqli_fetch_object($query)){

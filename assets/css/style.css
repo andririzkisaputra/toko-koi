@@ -795,13 +795,13 @@ section {
   transition: 0.3s;
   margin: 0px 15px 0px 0px;
 }
-.portfolio .product-item .product-info .preview-link:hover, .portfolio .product-item .product-info .details-link:hover {
+.product .product-item .product-info .preview-link:hover, .product .product-item .product-info .details-link:hover {
   color: #fd9f5b;
 }
-.portfolio .product-item .product-info .details-link {
+.product .product-item .product-info .details-link {
   right: 10px;
 }
-.portfolio .product-item .portfolio-links {
+.product .product-item .portfolio-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -1598,9 +1598,9 @@ top:0;
 /*custom sesuai keinginan untuk ukuran modalnya*/
 
 @media screen and (min-width: 320px) {
-.modal-custom {
-  
-}
+  .modal-custom {
+    
+  }
 }
 
 @media screen and (min-width: 620px) {
@@ -1610,13 +1610,22 @@ top:0;
 }
 
 @media screen and (min-width: 760px) {
-.modal-custom {
-  
-}
+  .modal-custom {
+    
+  }
 }
 
 @media screen and (min-width: 960px) {
-.modal-custom {
-  width: 400px;
+  .modal-custom {
+    width: 400px;
+  }
 }
+
+.cart {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #d9d9d9;
+  padding: 15px 15px 0px 15px;
+  margin-bottom: 15px;
 }
