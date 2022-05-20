@@ -2,7 +2,7 @@
 include('../server/db.php');
 include('../frontend/method/user.php');
 $user = new User;
-$cek_user = $user->get_all($_POST);
+$cek_user = $user->get_by($_POST);
 if (!$cek_user) {
     $insert = $user->insert($_POST);
     if ($insert) {
