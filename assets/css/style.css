@@ -1695,3 +1695,7 @@ top:0;
   padding: 0;
   border-bottom: 1px solid #cccccc;
 }
+
+.width-50 {
+  width: 50%;
+}

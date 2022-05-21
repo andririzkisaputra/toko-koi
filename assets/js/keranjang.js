@@ -1,5 +1,6 @@
 (function($) {
     'use strict'
+    let bank = [];
     get();
 
     function get() {
@@ -8,8 +9,18 @@
             method: 'POST', 
             dataType: 'json',
             success: function(res){
-                paymentDetails(res.payment);
-                keranjangDetails(res.cart);
+                if (res.cart) {
+                    bank = res.payment;
+                    paymentDetails(res.payment);
+                    keranjangDetails(res.cart);
+                } else {
+                    let empty = '<tr class="text-center">'
+                                    +'<td colspan="14">Keranjang Kosong</td>'
+                                +'</tr>';
+                    $('tbody').html(empty);
+                    $('.data-info').html('');
+                    $('.rincian').html('');
+                }
             }
         })
     }
@@ -34,16 +45,16 @@
         let className = 'row d-flex justify-content-between align-items-center';
         let html = '<p>Pembayaran</p><hr>'
                 +'<div class="'+className+'">'
-                    +'<b class="col-lg-6">Bank</b>'
-                    +'<b class="col-lg-6">'+params.bank+'</b>'
+                    +'<b class="width-50">Bank</b>'
+                    +'<b class="width-50">'+params.bank+'</b>'
                 +'</div><hr>'
                 +'<div class="'+className+'">'
-                    +'<b class="col-lg-6">Nomor Rekening</b>'
-                    +'<b class="col-lg-6">'+params.number+'</b>'
+                    +'<b class="width-50">Nomor Rekening</b>'
+                    +'<b class="width-50">'+params.number+'</b>'
                 +'</div><hr>'
                 +'<div class="'+className+'">'
-                    +'<b class="col-lg-6">Nama</b>'
-                    +'<b class="col-lg-6">'+params.name+'</b>'
+                    +'<b class="width-50">Nama</b>'
+                    +'<b class="width-50">'+params.name+'</b>'
                 +'</div><hr>';
         $('.payment-details').html(html);
         listPayment(params.list_payment);
@@ -83,14 +94,14 @@
                     +'<td>'+val.product.sex+'</td>'
                     +'<td>'+val.product.quality+'</td>'
                     +'<td>'+val.product.size+' cm</td>'
-                    +'<td>'
+                    +'<td colspan="2">'
                         +'<a href="javascript:void(0)" data-product="'+val.code_product+'" class="min preview-link"><i class="bx bx-caret-left"></i></a>'
                         +'<span>'+val.qty+'</span>'
                         +'<a href="javascript:void(0)" data-product="'+val.code_product+'" class="max preview-link"><i class="bx bx-caret-right"></i></a>'
                     +'</td>'
-                    +'<td>'+formatRupiah(val.product.price, 'Rp ')+'</td>'
-                    +'<td>'+formatRupiah(val.price, 'Rp ')+'</td>'
-                    +'<td><button class="btn btn-sm btn-danger" data-product="'+val.code_product+'"><i class="bx bx-trash"></button></td>'
+                    +'<td colspan="2">'+formatRupiah(val.product.price, 'Rp ')+'</td>'
+                    +'<td colspan="4">'+formatRupiah(val.price, 'Rp ')+'</td>'
+                    +'<td><button class="btn btn-sm btn-danger" data-product="'+val.code_product+'" style="padding: 3px;"><i class="bx bx-trash"></button></td>'
                 +'</tr>'
             );
         })
@@ -102,12 +113,12 @@
 
     function rincianDetails(subtotal, total) {
         $('.subtotal').html(
-            '<b class="col-lg-6">SubTotal</b>'
-            +'<b class="col-lg-6">'+formatRupiah(subtotal.toString(), 'Rp ')+'</b>'
+            '<b class="width-50">SubTotal</b>'
+            +'<b class="width-50">'+formatRupiah(subtotal.toString(), 'Rp ')+'</b>'
         );
         $('.total').html(
-            '<p class="col-lg-6">Total</p>'
-            +'<b class="col-lg-6">'+formatRupiah(total.toString(), 'Rp ')+'</b>'
+            '<p class="width-50">Total</p>'
+            +'<b class="width-50">'+formatRupiah(total.toString(), 'Rp ')+'</b>'
         );
     }
 
@@ -121,6 +132,7 @@
                 code_bank: code_bank,
             },
             success: function(res){
+                bank = res;
                 paymentDetails(res);
             }
         })
@@ -167,6 +179,18 @@
             },
             success: function(res){
                 return location.reload();
+            }
+        })
+    });
+
+    $(document).on('click', '.beli', function(e){
+        let product = $(this).attr('data-product');
+        $.ajax({
+            url: 'config/frontend/proses-pesanan.php',
+            method: 'POST', 
+            dataType: 'json',
+            success: function(res){
+                console.log(res);
             }
         })
     });

@@ -25,9 +25,12 @@
                 <?php if(isset($_SESSION['user'])) : ?>
                     <li>
                         <a class="nav-link scrollto <?= ($uri[2] == 'keranjang.php') ? 'active' : ''?>" href="keranjang.php">Keranjang
-                            <span class="cart-count"><?= count($cart->get_all()); ?></span>
+                            <?php if ($cart->get_all()) : ?>
+                                <span class="cart-count"><?= count($cart->get_all()); ?></span>
+                            <?php endif; ?>
                         </a>
                     </li>
+                    <li><a class="nav-link scrollto <?= ($uri[2] == 'pesanan.php') ? 'active' : ''?>" href="akun.php">Pesanan</a></li>
                     <li><a class="nav-link scrollto <?= ($uri[2] == 'akun.php') ? 'active' : ''?>" href="akun.php">Akun</a></li>
                     <li><a class="nav-link scrollto" href="config/frontend/logout.php">Logout (<?= $_SESSION['user']['username']; ?>)</a></li>
                 <?php endif ?>
