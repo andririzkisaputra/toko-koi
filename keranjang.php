@@ -29,22 +29,22 @@
                             <hr>
                             <div class="row d-flex justify-content-between align-items-center">
                                 <b class="width-50">Nama Penerima</b>
-                                <b class="width-50"><?= $_SESSION['user']['name'] ?></b>
+                                <b class="width-50"><?= $_SESSION['user']->name; ?></b>
                             </div>
                             <hr>
                             <div class="row d-flex justify-content-between align-items-center">
                                 <b class="width-50">Nomor</b>
-                                <b class="width-50"><?= $_SESSION['user']['number'] ?></b>
+                                <b class="width-50"><?= $_SESSION['user']->number; ?></b>
                             </div>
                             <hr>
                             <div class="row d-flex justify-content-between align-items-center">
                                 <b class="width-50">Email</b>
-                                <b class="width-50"><?= $_SESSION['user']['email'] ?></b>
+                                <b class="width-50"><?= $_SESSION['user']->email; ?></b>
                             </div>
                             <hr>
                             <div class="row d-flex justify-content-between align-items-center">
                                 <b class="width-50">Alamat</b>
-                                <b class="width-50"><?= $_SESSION['user']['address'] ?></b>
+                                <b class="width-50"><?= $_SESSION['user']->address; ?></b>
                             </div>
                             <hr>
                             <div class="payment-details"></div>

@@ -190,7 +190,13 @@
             method: 'POST', 
             dataType: 'json',
             success: function(res){
-                console.log(res);
+                // if (res) {
+                //     alert('Berhasil dipesan, silahkan melakukan pembayaran!');
+                //     return window.location = 'pesanan.php';
+                // } else {
+                //     alert('Gagal dipesan, silahkan coba sesaat lagi!');
+                //     return location.reload();
+                // }
             }
         })
     });

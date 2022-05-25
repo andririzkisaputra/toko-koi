@@ -7978,7 +7978,7 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     font-size: 15px;
-    padding: 10px 20px; }
+    /* padding: 10px 20px; */ }
     .btn:hover, .btn:active, .btn:focus {
       outline: none; }
     .btn.btn-primary {

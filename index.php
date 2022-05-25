@@ -3,7 +3,7 @@
 <script>
     let user = false;
     <?php if(isset($_SESSION['user'])) : ?>
-        user = <?= json_encode($_SESSION['user']['username']); ?>
+        user = <?= json_encode($_SESSION['user']->username); ?>
     <?php endif; ?>
 </script>
 <!-- ======= Hero Section ======= -->
@@ -12,9 +12,9 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
             <div class="carousel-container">
-                <h2 class="animate__animated animate__fadeInDown">Ikan Koi</h2>
+                <h2 class="animate__animated animate__fadeInDown">Tentang</h2>
                 <p class="animate__animated fanimate__adeInUp">
-                    Koi atau secara spesifiknya koi berasal dari bahasa Jepang yang berarti ikan karper. Lebih spesifik lagi merujuk pada nishikigoi, yang kurang lebih bermakna ikan karper yang bersulam emas atau perak
+                    Juwita fish farm merupakan Usaha Mikro Kecil dan Menengah (UMKM) di bidang perikanan yang berdiri pada tahun 1990 dengan menjual ikan konsumsi seperti nila, lele dan gurame. Namun pada tahun 2000 beralih ke ikan hias yaitu ikan koi.
                 </p>
                 <a href="tentang.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya</a>
             </div>

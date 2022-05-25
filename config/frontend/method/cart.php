@@ -14,7 +14,7 @@ class Cart
     {
         $data  = [];
         $query = 'SELECT * FROM cart';
-        $query .= ' WHERE username = "'.$_SESSION['user']['username'].'"';
+        $query .= ' WHERE username = "'.$_SESSION['user']->username.'"';
         if ($where) {
             $query .= ' AND code_product = "'.$where['product'].'"';
         }
@@ -30,7 +30,7 @@ class Cart
     {
         $data  = [];
         $cart = 'SELECT * FROM cart';
-        $cart .= ' WHERE username = "'.$_SESSION['user']['username'].'"';
+        $cart .= ' WHERE username = "'.$_SESSION['user']->username.'"';
         $cart = mysqli_query($this->db->connect(), $cart);
 		while($row = mysqli_fetch_object($cart)){
             $data_product = null;
@@ -64,10 +64,23 @@ class Cart
     {
         $data  = [];
         $query = 'SELECT * FROM cart';
-        $query .= ' WHERE username = "'.$_SESSION['user']['username'].'"';
+        $query .= ' WHERE username = "'.$_SESSION['user']->username.'"';
         if ($where) {
             $query .= ' AND code_product = "'.$where['product'].'"';
         }
+        $query = mysqli_query($this->db->connect(), $query);
+		while($row = mysqli_fetch_object($query)){
+			$data = $row;
+		}
+        $this->result = $data;
+		return $this->result;
+    }
+
+    public function get_sum()
+    {
+        $data  = [];
+        $query = 'SELECT SUM(price) as price, SUM(qty) as qty FROM cart';
+        $query .= ' WHERE username = "'.$_SESSION['user']->username.'"';
         $query = mysqli_query($this->db->connect(), $query);
 		while($row = mysqli_fetch_object($query)){
 			$data = $row;
@@ -83,13 +96,15 @@ class Cart
             username,
             qty,
             price,
-            created_at
+            created_at,
+            updated_at
         )
         VALUES (
             "'.$data->code_product.'",
-            "'.$_SESSION['user']['username'].'",
+            "'.$_SESSION['user']->username.'",
             1,
             '.$data->price.',
+            "'.date('Y-m-d H:i:s').'",
             "'.date('Y-m-d H:i:s').'"
         )';
         return mysqli_query($this->db->connect(), $sql);
@@ -99,9 +114,10 @@ class Cart
     {
         $sql = 'UPDATE cart SET 
         qty = '.$data->qty.',
-        price = '.$data->price.'
+        price = '.$data->price.',
+        updated_at = "'.date('Y-m-d H:i:s').'"
         WHERE code_product = "'.$data->code_product.' "
-        AND username = "'.$_SESSION['user']['username'].'"';
+        AND username = "'.$_SESSION['user']->username.'"';
         return mysqli_query($this->db->connect(), $sql);
     }
 

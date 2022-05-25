@@ -14,9 +14,9 @@ class User
     {
         $data  = [];
         $query = 'SELECT * FROM user';
-        $query .= ($where) ? ' WHERE username = "'.$where['username'].'"' : '';
+        $query .= ($where) ? ' WHERE username = "'.$where->username.'" AND password = "'.$where->password.'"' : '';
         $query = mysqli_query($this->db->connect(), $query);
-		while($row = mysqli_fetch_array($query)){
+		while($row = mysqli_fetch_object($query)){
 			$data = $row;
 		}
         $this->result = $data;
@@ -35,12 +35,12 @@ class User
             created_at
         )
         VALUES (
-            "'.$data['username'].'",
-            "'.$data['name'].'",
-            "'.$data['number'].'",
-            "'.$data['email'].'",
-            "'.$data['password'].'",
-            "'.$data['address'].'",
+            "'.$data->username.'",
+            "'.$data->name.'",
+            "'.$data->number.'",
+            "'.$data->email.'",
+            "'.$data->password.'",
+            "'.$data->address.'",
             "'.date('Y-m-d H:i:s').'"
         )';
         return mysqli_query($this->db->connect(), $sql);

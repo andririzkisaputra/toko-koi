@@ -14,7 +14,6 @@ $(document).ready(function() {
                 product: product,
             },
             success: function(res){
-                console.log(res);
                 get_file_upload(res.data.file_upload);
                 get_product(res.data.product);
             }
@@ -25,14 +24,14 @@ $(document).ready(function() {
         data = [];
         file_upload.map(function(val, index){
             if (val.type == 'img') {
-                img = '<img src="assets/img/product/'+val.name+'">'
+                img = '<img src="assets/img/product/'+val.name+'" style="width: 50%;">'
             } else {
-                img = '<video width="100%" height="100%" controls>'
+                img = '<video width="40%" controls>'
                         +'<source  src="assets/video/'+val.name+'" type="video/mp4">'
                     +'</video>'
             }
             data.push(                    
-                '<div class="swiper-slide">'
+                '<div class="swiper-slide d-flex flex-column justify-content-center align-items-center">'
                     +img
                 +'</div>'
             )

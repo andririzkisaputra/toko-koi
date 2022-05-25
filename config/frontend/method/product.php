@@ -45,10 +45,8 @@ class Product
     public function get_limit($where = [])
     {
         $data  = [];
-        $query = 'SELECT *, a.name AS name_product FROM product a, file_upload b
-                WHERE a.session_upload_id = b.session_upload_id 
-                AND a.is_active = "1"
-                AND b.type = "img"';
+        $query = 'SELECT *, name AS name_product FROM product
+                WHERE is_active = "1"';
         $query .= ($where['limit']) ? ' LIMIT '.$where['limit'].'' : '';
         $query = mysqli_query($this->db->connect(), $query);
         while($row = mysqli_fetch_object($query)){
@@ -56,12 +54,22 @@ class Product
             $query_cart = mysqli_query($this->db->connect(), 
                 'SELECT qty FROM cart
                 WHERE code_product = "'.$row->code_product.'"
-                AND username = "'.$_SESSION['user']['username'].'"'
+                AND username = "'.$_SESSION['user']->username.'"'
             );
             while($row_cart = mysqli_fetch_object($query_cart)){
                 $cart = $row_cart;
             }
+            $query_file_upload = mysqli_query($this->db->connect(), 
+                'SELECT * FROM file_upload
+                WHERE session_upload_id = "'.$row->session_upload_id.'"
+                AND type = "img"'
+            );
+            while($row_file_upload = mysqli_fetch_object($query_file_upload)){
+                $file_upload = $row_file_upload;
+            }
             $row->qty = ($cart) ? $cart->qty : 0;
+            $row->name = ($file_upload) ? $file_upload->name : NULL;
+            $row->type = ($file_upload) ? $file_upload->type : NULL;
 			$data[] = $row;
 		}
         $this->result = $data;
